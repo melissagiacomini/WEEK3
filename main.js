@@ -113,7 +113,7 @@ const load_graph = async () => {
         "translate(" + margin.left + "," + margin.top + ")");
 
     x2.domain(scores.map(function (d) { return d.x; }));
-    y2.domain([0, 100])
+    y2.domain([0, 10])
 
     svg2.append("g")
       .attr("transform", "translate(0," + height + ")")

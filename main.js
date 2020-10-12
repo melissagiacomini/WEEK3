@@ -1,7 +1,7 @@
 
 const getData = async () => {
   let json
-  await fetch("https://cors-anywhere.herokuapp.com/https://4v9r83qfo4.execute-api.eu-central-1.amazonaws.com/dev")
+  await fetch("https://cors-anywhere.herokuapp.com/https://y4h5dluqnf.execute-api.us-east-2.amazonaws.com/dev/json")
     .then(res => json = res.json())
   return json
 }

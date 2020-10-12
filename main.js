@@ -95,6 +95,18 @@ const load_graph = async () => {
     {
       "x": keys[2],
       "y": datas.scores.c
+    },
+    {
+      "x": keys[3],
+      "y": datas.scores.d
+    },
+    {
+      "x": keys[4],
+      "y": datas.scores.e
+    },
+    {
+      "x": keys[5],
+      "y": datas.scores.f
     }
     ]
 

@@ -37,7 +37,7 @@ const load_graph = async () => {
 
 
     datasJson = []
-    colors = ['red', 'blue', 'orange', 'green'];
+    colors = ['red', 'blue', 'orange', 'green','yellow','purple'];
     datas.data.forEach(element => {
       datasJson.push({
         "x": element[0],
